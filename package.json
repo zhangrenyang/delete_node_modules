@@ -1,0 +1,21 @@
+{
+  "name": "@zhangry/delete_node_modules",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org"
+  },
+  "bin": {
+    "delete_node_modules": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "glob": "^7.1.7",
+    "io-spin": "^0.4.1"
+  }
+}
